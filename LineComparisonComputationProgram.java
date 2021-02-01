@@ -32,7 +32,7 @@ public class LineComparisonComputationProgram
 		Double len1 = new Double(length1);
 		Double len2 = new Double(length2);
 		
-		System.out.println(len1.equals(len2));
+		System.out.println(len1.compareTo(len2));
 
 	}
 
